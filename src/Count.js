@@ -34,22 +34,13 @@ function Count() {
   
     <div className="container">
     <div className="row">
-    <div className="col-md-4">
+    <div className="col-lg-5">
     <p>{counter}</p>
-    <div>
-    <div>
+    <div className='d-flex flex-wrap gap-3'>
     <button type="button" className="btn btn-warning" onClick={Increment}>Increment</button>
-    </div>
-    <div className='mt-3'>
     <button type="button" className="btn btn-danger" onClick={Decrement}>Decrement</button>
-    </div>
-    <div className='mt-3'>
     <button type="button" className="btn btn-warning" onClick={() => IncrConterBy(5)}>Increment By 5</button>
-    </div>
-    <div className='mt-3'>
     <button type="button" className="btn btn-danger" onClick={() => DecCounterBy(5) }>Decrement By 5</button>
-    </div>
-
     </div>
     </div>
     </div>
